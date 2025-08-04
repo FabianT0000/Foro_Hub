@@ -19,7 +19,8 @@ public class SpringDocConfiguration {
                                 new SecurityScheme().type(SecurityScheme.Type.HTTP).scheme("bearer").bearerFormat("JWT")))
                 .info(new Info()
                 .title("API FORO HUB")
-                .description("API Rest de la aplicación Foro Hub ,en la que se tiene la posibilidad de crear un tema(tópico) de discusión ,recibir respuestas de otros usuarios,esto por medio del solicitudes Http POST,ademas se tiene las funcionalidades de CRUD para los cursos,usuarios,tópicos y respuestas o comentarios. Recuerda que para usar Swagger necesitas loguearte si ya tienes un usuario creado,de lo contrario debes crearlo y por último usar el token para interactuar con toda la API")
+                .description("This API allows you to create discussion topics and receive replies from other users through HTTP POST requests. It also provides full CRUD functionality for courses, users, topics, and replies or answers.\n" +
+                        "To use Swagger and test the API, you need to log in if you already have an existing user. Otherwise, you can register first, and then use the generated token to interact with all the endpoints securely.\n")
                 .contact(new Contact()
                         .name("Didier Fabian Torres Rey")
                         .email("tfabiann@gmail.com"))
